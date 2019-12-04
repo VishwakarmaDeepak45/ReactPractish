@@ -82,7 +82,7 @@ export default class Home extends Component {
               //onEndReached() load the data on the end of first array dataset.
               onEndReached={()=> self.loadMore()}
               //onEndReachedThreshold() wait 0.9 thresold time for last elements
-              onEndReachedThreshold={0.9}
+              onEndReachedThreshold={0.5}
           />
       </View>
     )
